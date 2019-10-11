@@ -46,7 +46,9 @@ sess = tf.Session(config=config)（备注：动态申请显存，按程序需要
 
 8、添加清华源
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
-
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
 9、conda update --all
    conda install xxx
 
