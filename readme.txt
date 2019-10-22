@@ -89,3 +89,16 @@ sudo add-apt-repository ppa:t-tujikawa/ppa
 sudo apt-get install uget 
 # 这里是待会要用的下载方式
 sudo apt-get install aria2
+13、
+pycharm快捷方式
+sudo gedit /usr/share/applications/Pycharm.desktop
+
+[Desktop Entry]
+Type=Application
+Name=Pycharm
+GenericName=Pycharm5
+Comment=Pycharm5:The Python IDE 
+Exec="/home/hupeng/pycharm/bin/pycharm.sh"
+Icon=/home/hupeng/pycharm/bin/pycharm.png
+Terminal=pycharm
+Categories=Pycharm
