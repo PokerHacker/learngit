@@ -82,3 +82,10 @@ sudo apt-get upgrade
 
 11、jt -t monokai -f fira -fs 12 -cellw 90% -ofs 11 -dfs 11 -T -N
  
+12、
+sudo add-apt-repository ppa:plushuang-tw/uget-stable
+sudo add-apt-repository ppa:t-tujikawa/ppa
+# 这里是uGet的客户端
+sudo apt-get install uget 
+# 这里是待会要用的下载方式
+sudo apt-get install aria2
